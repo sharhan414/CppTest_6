@@ -4,12 +4,13 @@
 using namespace std;
 static bool FuncThreadCont=true;
 void func(){
+    cout<<"Funt thread is STARTED"<<endl;
     int32_t Timer=0;
     while(FuncThreadCont){
         this_thread::sleep_for(chrono::milliseconds(100));
 cout<<"Timer:"<<++Timer<<endl;
     }
-
+cout<<"Funt thread is close"<<endl;
 }
 
 int main(){
