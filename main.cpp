@@ -13,7 +13,7 @@ cout<<"Timer:"<<++Timer<<endl;
 }
 
 int main(){
-
+cout<<"Programms is begin"<<endl;
 
 thread FuncTread(func);
 
