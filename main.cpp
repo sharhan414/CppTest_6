@@ -20,6 +20,7 @@ thread FuncTread(func);
 cout<<"Hello, world!"<<endl;
 
 FuncTread.join();
+cout<<"Programms is End"<<endl;
 
 return  0;
 }
